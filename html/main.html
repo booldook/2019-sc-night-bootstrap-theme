@@ -17,10 +17,11 @@
 	<script src="../js/popper.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
 	<script src="../js/wow.min.js"></script>
+	<script src="../js/parallax.min.js"></script>
 </head>
 <body>
 	<!-- header|nav|main|section|aside|article|footer -->
-	<header class="shadow-sm fixed-top">
+	<header class="shadow-sm fixed-top bg-white">
 		<div class="container d-flex justify-content-between align-items-center">
 			<div class="logo">
 				<img src="../img/logo.png" alt="">
@@ -42,9 +43,33 @@
 			<i class="fas fa-cogs"></i>
 		</div>
 	</header>
-	<div class="container">
-
-	</div>
+	<main class="container" style="margin-top: 180px;">
+		<div class="row">
+			<div class="col-12 col-md-6 f-3 lh-12 font-weight-bold">
+					We are making better<br>
+					Environment for you.
+			</div>
+			<div class="col-12 col-md-6 f-15 c-9">
+					Collaboratively coordinate adaptive synergy with compelling "outside the box" thinking. Continually recaptiualize user friendly sources whereas leveraged.
+			</div>
+		</div>
+	</main>
+	<main class="parallax-window mt-5 d-flex justify-content-center align-items-center position-relative" style="height: 500px;" data-parallax="scroll" data-image-src="../img/hero.jpg">
+		<div class="container text-white">
+			<h1>
+				The Center is a network of 9<br> 
+				workspaces, from 200 to 3,700 sqft,<br>
+				Build and Designed to support<br>
+				Personal and Businesses in the<br>
+				Creative World.
+			</h1>
+		</div>
+		<div class="container row p-5 bg-primary position-absolute p-right rounded" style="bottom:0; transform:translate(6px, 50%);">
+			<div class="col-4 bg-danger p-5"></div>
+			<div class="col-4 bg-warning p-5"></div>
+			<div class="col-4 bg-info p-5"></div>
+		</div>
+	</main>
 	<script>new WOW().init();</script>
 </body>
 </html>

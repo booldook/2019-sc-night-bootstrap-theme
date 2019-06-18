@@ -1,1 +1,19 @@
 html {height: 2000px;}
+
+/*
+@media screen and (min-width: 1200px) {
+	PC col-xl-
+}
+@media screen and (max-width: 1199px) {
+	태블릿 가로 col-lg-
+}
+@media screen and (max-width: 992px) {
+	태블릿 세로 col-md-
+}
+@media screen and (max-width: 768px) {
+	스마트폰 가로 col-sm-
+}
+@media screen and (max-width: 576px) {
+	스마트폰 세로 col-
+}
+*/
