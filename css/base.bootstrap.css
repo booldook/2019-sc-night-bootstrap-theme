@@ -63,3 +63,9 @@ flex: d-flex, justify-content-center
 .lh-16 {line-height: 1.6;}
 .lh-18 {line-height: 1.8;}
 .lh-2 {line-height: 2;}
+
+
+.p-top {top:0;}
+.p-bottom {bottom:0;}
+.p-left {left:0;}
+.p-right {right:0;}
