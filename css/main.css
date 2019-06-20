@@ -1,5 +1,22 @@
 html {height: 2000px;}
 
+.bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus, .bx-wrapper .bx-pager.bx-default-pager a:hover {
+	background: #f60;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+	background: #ccc;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+
 /*
 @media screen and (min-width: 1200px) {
 	PC col-xl-
