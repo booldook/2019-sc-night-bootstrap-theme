@@ -19,6 +19,7 @@ ul, ol, li, dl, dt, dd {list-style: none;}
 
 .container, .container-fluid {margin: 0 auto; padding: 0;}
 .table {margin: 0;}
+.img {width: 100%;}
 
 /* 사용자 정의 */
 /*
