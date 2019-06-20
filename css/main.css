@@ -1,7 +1,7 @@
 html {height: 2000px;}
 
 .text-primary {color: #2e7ff2 !important;}
-.bg-primary {color: #2e7ff2 !important;}
+.bg-primary {background-color: #2e7ff2 !important;}
 
 .bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
 	position: absolute;
